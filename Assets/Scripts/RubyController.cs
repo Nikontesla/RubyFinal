@@ -208,11 +208,12 @@ public class RubyController : MonoBehaviour
     void CreateHearts()
     {
         hearts.Play();
+        audioSource.PlayOneShot(healClip);
     }
     void CreateDamage()
     {
         damage.Play();
-        audioSource
+        audioSource.PlayOneShot(rubyhurtClip);
     }
 
     // cogingtons
