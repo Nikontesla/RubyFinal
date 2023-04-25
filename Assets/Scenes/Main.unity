@@ -9302,12 +9302,12 @@ PrefabInstance:
     - target: {fileID: 2773378518337060426, guid: 177d53f19e1cd224c964a3eb3c339761,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.96
+      value: -1.39
       objectReference: {fileID: 0}
     - target: {fileID: 2773378518337060426, guid: 177d53f19e1cd224c964a3eb3c339761,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.55
+      value: 2.48
       objectReference: {fileID: 0}
     - target: {fileID: 2773378518337060426, guid: 177d53f19e1cd224c964a3eb3c339761,
         type: 3}
@@ -10053,6 +10053,11 @@ PrefabInstance:
       objectReference: {fileID: 618589877}
     - target: {fileID: 6103744562131745451, guid: 59237261ab94eb44d907aa23fb1902b3,
         type: 3}
+      propertyPath: newMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: 5aada8b1f3d4d264c84e780980c49f36, type: 3}
+    - target: {fileID: 6103744562131745451, guid: 59237261ab94eb44d907aa23fb1902b3,
+        type: 3}
       propertyPath: totalCogsText
       value: 
       objectReference: {fileID: 370864706}
@@ -10084,12 +10089,12 @@ PrefabInstance:
     - target: {fileID: 6103744562131745453, guid: 59237261ab94eb44d907aa23fb1902b3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.96
+      value: -1.39
       objectReference: {fileID: 0}
     - target: {fileID: 6103744562131745453, guid: 59237261ab94eb44d907aa23fb1902b3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.55
+      value: 2.48
       objectReference: {fileID: 0}
     - target: {fileID: 6103744562131745453, guid: 59237261ab94eb44d907aa23fb1902b3,
         type: 3}
@@ -10301,12 +10306,12 @@ PrefabInstance:
     - target: {fileID: 7244658307079610187, guid: d32e5720371898b45b95439fac620b0e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.96
+      value: -1.39
       objectReference: {fileID: 0}
     - target: {fileID: 7244658307079610187, guid: d32e5720371898b45b95439fac620b0e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.55
+      value: 2.48
       objectReference: {fileID: 0}
     - target: {fileID: 7244658307079610187, guid: d32e5720371898b45b95439fac620b0e,
         type: 3}

@@ -39,6 +39,7 @@ public class RubyController : MonoBehaviour
     public AudioClip loseClip;
     public AudioClip hurtClip;
     public AudioClip healClip;
+    public AudioClip newMusic;
 
     // text win conditions
     public GameObject loseTextObject;
@@ -196,7 +197,7 @@ public class RubyController : MonoBehaviour
                 // isInDoorView = true;
                 //    hintText.SetActive(false);
                 audioSource.PlayOneShot(newMusic);
-                //  Debug.Log("i see door");
+                  Debug.Log("i see door");
             }
         }
         if (isInNpcView)
