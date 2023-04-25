@@ -38,6 +38,7 @@ public class RubyController : MonoBehaviour
     public AudioClip winClip;
     public AudioClip loseClip;
     public AudioClip hurtClip;
+    public AudioClip healClip;
 
     // text win conditions
     public GameObject loseTextObject;
@@ -213,7 +214,7 @@ public class RubyController : MonoBehaviour
     void CreateDamage()
     {
         damage.Play();
-        audioSource.PlayOneShot(rubyhurtClip);
+        audioSource.PlayOneShot(hurtClip);
     }
 
     // cogingtons
