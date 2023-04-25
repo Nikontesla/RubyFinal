@@ -38,7 +38,7 @@ public class npcmove : MonoBehaviour
 
         Vector2 position = rigidbody2D.position;
         position.x = position.x + Time.deltaTime * speed * direction;
-
+        animator.SetFloat("Move X", direction);
         rigidbody2D.MovePosition(position);
     }
 
