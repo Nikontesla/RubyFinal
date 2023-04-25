@@ -5,6 +5,7 @@ using UnityEngine;
 public class Oilspill : MonoBehaviour
 {
     private GameObject rubyController;
+    public AudioClip oilClip;
     void Start()
     {
         rubyController = GameObject.FindWithTag("RubyController");
@@ -16,6 +17,7 @@ public class Oilspill : MonoBehaviour
         if (ruby != null)
         {
             ruby.ChangeSpeed(0.5f);
+            ruby.PlaySound(oilClip);
         }
     }
 }

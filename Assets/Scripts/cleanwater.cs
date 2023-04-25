@@ -5,6 +5,7 @@ using UnityEngine;
 public class cleanwater : MonoBehaviour
 {
     private GameObject rubyController;
+    public AudioClip cleanClip;
     void Start()
     {
         rubyController = GameObject.FindWithTag("RubyController");
@@ -16,6 +17,7 @@ public class cleanwater : MonoBehaviour
         if (ruby != null)
         {
             ruby.ChangeSpeed(1f);
+            ruby.PlaySound(cleanClip);
         }
     }
 }
