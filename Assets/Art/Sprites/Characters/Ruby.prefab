@@ -4987,13 +4987,16 @@ MonoBehaviour:
     type: 3}
   totalCogsText: {fileID: 2286234459775046669, guid: 30517a1fb8995cb4ea1c3b2bf94bb56e,
     type: 3}
-  winClip: {fileID: 8300000, guid: 9b1cef465e07cc746b20b9871d0ca7c1, type: 3}
+  winClip: {fileID: 8300000, guid: 4651750c082604e47bcfe54079fdb832, type: 3}
   loseClip: {fileID: 8300000, guid: 582847c2430225e4684a4e192c9ae033, type: 3}
   hurtClip: {fileID: 8300000, guid: dabd2c5c613eaf740bd3e6623529bcc2, type: 3}
+  healClip: {fileID: 8300000, guid: 410b709ecfdf5314e850ef55f1bf0224, type: 3}
   loseTextObject: {fileID: 0}
   winTextObeject: {fileID: 0}
   winText2Object: {fileID: 0}
   fixedrobotText: {fileID: 0}
+  speedMultiplier: 1
+  hintText: {fileID: 0}
 --- !u!50 &7154242791222666966
 Rigidbody2D:
   serializedVersion: 4
