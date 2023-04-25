@@ -10038,6 +10038,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6103744562131745451, guid: 59237261ab94eb44d907aa23fb1902b3,
         type: 3}
+      propertyPath: winClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 4651750c082604e47bcfe54079fdb832, type: 3}
+    - target: {fileID: 6103744562131745451, guid: 59237261ab94eb44d907aa23fb1902b3,
+        type: 3}
+      propertyPath: healClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 410b709ecfdf5314e850ef55f1bf0224, type: 3}
+    - target: {fileID: 6103744562131745451, guid: 59237261ab94eb44d907aa23fb1902b3,
+        type: 3}
       propertyPath: hintText
       value: 
       objectReference: {fileID: 618589877}
