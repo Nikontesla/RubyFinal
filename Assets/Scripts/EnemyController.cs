@@ -94,6 +94,7 @@ public class EnemyController : MonoBehaviour
                 ruby.addFixedRobot();
                 Debug.Log("BARKS");
                 animator.SetInteger("State", 1);
+                audioSource.PlayOneShot(fixClip);
             }
         }
         broken = false;
@@ -101,5 +102,9 @@ public class EnemyController : MonoBehaviour
         //optional if you added the fixed animation
         //    animator.SetTrigger("Fixed");
         smokeEffect.Stop();
+    }
+    public void PlaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
     }
 }

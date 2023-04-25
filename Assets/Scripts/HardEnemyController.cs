@@ -16,7 +16,7 @@ public class HardEnemyController : MonoBehaviour
 
     Animator animator;
     private GameObject rubyController;
-    public AudioClip oilClip;
+    public AudioClip foxClip;
     AudioSource audioSource;
     // Start is called before the first frame update
     void Start()
@@ -92,6 +92,7 @@ public class HardEnemyController : MonoBehaviour
                 ruby.addFixedRobot();
                 Debug.Log("BARKS");
                 animator.SetInteger("State", 1);
+                audioSource.PlayOneShot(fixClip);
             }
 
         }
@@ -100,5 +101,9 @@ public class HardEnemyController : MonoBehaviour
         //optional if you added the fixed animation
         //   animator.SetTrigger("Fixed");
         smoketwoEffect.Stop();
+    }
+    public void PlaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
     }
 }
