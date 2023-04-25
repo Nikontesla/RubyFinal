@@ -6,6 +6,7 @@ TagManager:
   tags:
   - RubyController
   - door
+  - jukebox
   layers:
   - Default
   - TransparentFX
@@ -21,7 +22,7 @@ TagManager:
   - NPC
   - door
   - insidedoor
-  - 
+  - jukebox
   - 
   - 
   - 

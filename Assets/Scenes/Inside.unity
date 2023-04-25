@@ -456,6 +456,11 @@ PrefabInstance:
       objectReference: {fileID: 2028272822}
     - target: {fileID: 6103744562131745451, guid: 59237261ab94eb44d907aa23fb1902b3,
         type: 3}
+      propertyPath: newMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: 5aada8b1f3d4d264c84e780980c49f36, type: 3}
+    - target: {fileID: 6103744562131745451, guid: 59237261ab94eb44d907aa23fb1902b3,
+        type: 3}
       propertyPath: totalCogsText
       value: 
       objectReference: {fileID: 1823808189}
@@ -704,9 +709,9 @@ GameObject:
   - component: {fileID: 842800851}
   - component: {fileID: 842800850}
   - component: {fileID: 842800849}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: jukebox_0
-  m_TagString: Untagged
+  m_TagString: jukebox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
