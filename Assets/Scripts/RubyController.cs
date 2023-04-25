@@ -190,6 +190,14 @@ public class RubyController : MonoBehaviour
                 SceneManager.LoadScene("Main");
                 //  Debug.Log("i see door");
             }
+            RaycastHit2D hitjuke = Physics2D.Raycast(rigidbody2d.position + Vector2.up * 0.2f, lookDirection, 1.5f, LayerMask.GetMask("jukebox"));
+            if (hitjuke.collider != null)
+            {
+                // isInDoorView = true;
+                //    hintText.SetActive(false);
+                audioSource.PlayOneShot(newMusic);
+                //  Debug.Log("i see door");
+            }
         }
         if (isInNpcView)
         {
