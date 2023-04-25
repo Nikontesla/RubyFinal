@@ -212,6 +212,7 @@ public class RubyController : MonoBehaviour
     void CreateDamage()
     {
         damage.Play();
+        audioSource
     }
 
     // cogingtons
