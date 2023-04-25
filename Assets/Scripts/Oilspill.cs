@@ -12,7 +12,7 @@ public class Oilspill : MonoBehaviour
         rubyController = GameObject.FindWithTag("RubyController");
         audioSource = GetComponent<AudioSource>();
     }
-    void OnTriggerStay2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
 
         RubyController ruby = other.GetComponent<RubyController>();
