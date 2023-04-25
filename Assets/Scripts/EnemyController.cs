@@ -16,6 +16,8 @@ public class EnemyController : MonoBehaviour
 
     Animator animator;
     private GameObject rubyController;
+    public AudioClip oilClip;
+    AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +25,7 @@ public class EnemyController : MonoBehaviour
         rigidbody2D = GetComponent<Rigidbody2D>();
         timer = changeTime;
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
 
         rubyController = GameObject.FindWithTag("RubyController");
 

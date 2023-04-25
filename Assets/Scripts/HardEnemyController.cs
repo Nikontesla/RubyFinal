@@ -16,13 +16,15 @@ public class HardEnemyController : MonoBehaviour
 
     Animator animator;
     private GameObject rubyController;
+    public AudioClip oilClip;
+    AudioSource audioSource;
     // Start is called before the first frame update
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
         timer = changeTime;
         animator = GetComponent<Animator>();
-
+        audioSource = GetComponent<AudioSource>();
         rubyController = GameObject.FindWithTag("RubyController");
 
     }
