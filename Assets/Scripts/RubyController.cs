@@ -197,7 +197,7 @@ public class RubyController : MonoBehaviour
                 // isInDoorView = true;
                 //    hintText.SetActive(false);
                 audioSource.PlayOneShot(newMusic);
-                  Debug.Log("i see door");
+                Debug.Log("i see JUKE");
             }
         }
         if (isInNpcView)
