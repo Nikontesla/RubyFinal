@@ -174,6 +174,14 @@ public class RubyController : MonoBehaviour
                     }
                 }
             }
+            RaycastHit2D hitdoor = Physics2D.Raycast(rigidbody2d.position + Vector2.up * 0.2f, lookDirection, 1.5f, LayerMask.GetMask("door"));
+            if (hitdoor.collider != null)
+            {
+                isInDoorView = true;
+                hintText.SetActive(false);
+                SceneManager.LoadScene("Inside");
+                //  Debug.Log("i see door");
+            }
         }
         if (isInNpcView)
         {
