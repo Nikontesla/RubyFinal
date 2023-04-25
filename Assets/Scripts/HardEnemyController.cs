@@ -16,7 +16,7 @@ public class HardEnemyController : MonoBehaviour
 
     Animator animator;
     private GameObject rubyController;
-    public AudioClip foxClip;
+    public AudioClip fixClip;
     AudioSource audioSource;
     // Start is called before the first frame update
     void Start()
