@@ -145,4 +145,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62dc918098c1a80489c881e1cea8b2d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oilClip: {fileID: 8300000, guid: edfd940d4a66c954d86c1a994d0a54b1, type: 3}
+  oilClip: {fileID: 8300000, guid: cfcd19e917803f942b30ac3637074423, type: 3}

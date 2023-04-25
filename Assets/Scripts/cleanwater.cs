@@ -5,10 +5,12 @@ using UnityEngine;
 public class cleanwater : MonoBehaviour
 {
     private GameObject rubyController;
-    public AudioClip cleanClip;
+   public AudioClip cleanClip;
+    AudioSource audioSource;
     void Start()
     {
         rubyController = GameObject.FindWithTag("RubyController");
+        audioSource = GetComponent<AudioSource>();
     }
     void OnTriggerStay2D(Collider2D other)
     {
@@ -17,7 +19,11 @@ public class cleanwater : MonoBehaviour
         if (ruby != null)
         {
             ruby.ChangeSpeed(1f);
-            ruby.PlaySound(cleanClip);
+            audioSource.PlayOneShot(cleanClip);
         }
+    }
+    public void PlaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
     }
 }

@@ -158,7 +158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46ae81d238c078a4cadc4cfdfb70dea6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breakClip: {fileID: 8300000, guid: 66bfd22d2e147e6459a0a4b567d44b35, type: 3}
+  breakClip: {fileID: 8300000, guid: 1b984282feae63d47921ef465dcbfc83, type: 3}
   openpar: {fileID: 6955927296499110542}
 --- !u!1001 &1537629500424345961
 PrefabInstance:

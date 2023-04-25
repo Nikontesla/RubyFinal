@@ -6,9 +6,11 @@ public class Oilspill : MonoBehaviour
 {
     private GameObject rubyController;
     public AudioClip oilClip;
+    AudioSource audioSource;
     void Start()
     {
         rubyController = GameObject.FindWithTag("RubyController");
+        audioSource = GetComponent<AudioSource>();
     }
     void OnTriggerStay2D(Collider2D other)
     {
@@ -17,7 +19,11 @@ public class Oilspill : MonoBehaviour
         if (ruby != null)
         {
             ruby.ChangeSpeed(0.5f);
-            ruby.PlaySound(oilClip);
+            audioSource.PlayOneShot(oilClip);
         }
+    }
+    public void PlaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
     }
 }
